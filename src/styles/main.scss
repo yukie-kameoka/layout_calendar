@@ -58,14 +58,11 @@ body {
     font-family: Arial, sans-serif;
     font-size: 30px;
 
-    transition:
-      background-color 0.5s,
-      transform 0.5s;
+    transition: background-color 0.3s;
 
     &:hover {
       cursor: pointer;
       background-color: $hover-color;
-      transform: translateY(-20px);
     }
 
     @for $day from 1 through 31 {
